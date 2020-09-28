@@ -73,8 +73,14 @@
 </template>
 
 <script>
+import RichEditor from '~/components/utility/RichEditor'
+
 export default {
   name: 'ChangeProjectForm',
+
+  components: {
+    RichEditor
+  },
 
   props: {
     project: {

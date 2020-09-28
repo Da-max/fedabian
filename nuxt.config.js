@@ -38,7 +38,6 @@ module.exports = {
    */
   plugins: [
     { src: '~/plugins/uikit', mode: 'client' },
-    { src: '~/plugins/rich-editor', mode: 'client' },
     { src: '~/plugins/axios' }
   ],
   /*
@@ -134,6 +133,9 @@ module.exports = {
    ** See https://github.com/nuxt/telemetry
    */
   telemetry: false,
+
+  optimizeCSS: true,
+  analyze: true,
   /*
    ** Build configuration
    */

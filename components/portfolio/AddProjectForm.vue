@@ -72,8 +72,14 @@
   </form>
 </template>
 <script>
+import RichEditor from '~/components/utility/RichEditor'
+
 export default {
   name: 'AddProjectForm',
+
+  components: {
+    RichEditor
+  },
 
   data() {
     return {
